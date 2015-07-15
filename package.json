@@ -1,0 +1,26 @@
+{
+  "name": "grunt-tyops",
+  "version": "0.0.1",
+  "description": "A grunt task to check files for typos and fail if any are found",
+  "keywords": [
+    "gruntplugin",
+    "typos"
+  ],
+  "homepage": "https://github.com/jdforrester/grunt-tyops",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:jdforrester/grunt-tyops.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-jsonlint": "1.0.4",
+    "grunt-contrib-jshint": "0.11.2",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-jscs": "1.8.0"
+  }
+}
