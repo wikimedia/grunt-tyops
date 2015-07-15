@@ -1,6 +1,6 @@
 {
   "name": "grunt-tyops",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A grunt task to check files for typos and fail if any are found",
   "keywords": [
     "gruntplugin",
