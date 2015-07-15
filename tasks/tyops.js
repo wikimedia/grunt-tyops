@@ -8,7 +8,7 @@ module.exports = function ( grunt ) {
 	grunt.registerMultiTask( 'tyops', function () {
 		var typosData, typosCSRegExp, typosCIRegExp, file,
 			options = this.options( {
-				typos: 'typos.json'
+				typos: 'tyops.json'
 			} ),
 			files = this.filesSrc,
 			fileCount = files.length,
