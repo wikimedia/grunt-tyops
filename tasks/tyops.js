@@ -5,7 +5,7 @@
 /*jshint node:true */
 module.exports = function ( grunt ) {
 
-	grunt.registerMultiTask( 'typos', function () {
+	grunt.registerMultiTask( 'tyops', function () {
 		var typosData, typosCSRegExp, typosCIRegExp, file,
 			options = this.options( {
 				typos: 'typos.json'
