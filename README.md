@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/grunt-tyops.svg)](http://badge.fury.io/js/grunt-banana-checker) [![Build Status](https://travis-ci.org/jdforrester/grunt-tyops.svg?branch=master)](https://travis-ci.org/jdforrester/grunt-tyops)
+[![NPM version](https://badge.fury.io/js/grunt-tyops.svg)](http://badge.fury.io/js/grunt-tyops) [![Build Status](https://travis-ci.org/jdforrester/grunt-tyops.svg?branch=master)](https://travis-ci.org/jdforrester/grunt-tyops)
 grunt-tyops
 ====================
 
