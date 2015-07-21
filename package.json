@@ -6,10 +6,10 @@
     "gruntplugin",
     "typos"
   ],
-  "homepage": "https://github.com/jdforrester/grunt-tyops",
+  "homepage": "https://github.com/wikimedia/grunt-tyops",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:jdforrester/grunt-tyops.git"
+    "url": "ssh://git@github.com:wikimedia/grunt-tyops.git"
   },
   "license": "MIT",
   "scripts": {
