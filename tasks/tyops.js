@@ -2,11 +2,11 @@
  * Check files from 'src' for typos; fail if any are found.
  */
 
-/*jshint node:true */
+/* jshint node:true */
 module.exports = function ( grunt ) {
 
 	grunt.registerMultiTask( 'tyops', function () {
-		var typosData, typosCSRegExp, typosCIRegExp, file,
+		let typosData, typosCSRegExp, typosCIRegExp, file,
 			options = this.options( {
 				typos: 'tyops.json'
 			} ),
@@ -46,7 +46,7 @@ module.exports = function ( grunt ) {
 		function findTypo( line, lineNumber, filepath, typos, flags ) {
 			// Check each pattern to find the replacement
 			typos.forEach( function ( typo ) {
-				var replace,
+				let replace,
 					pattern = new RegExp( typo[ 0 ], flags ),
 					matches = line.match( pattern );
 
