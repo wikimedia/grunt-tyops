@@ -2,7 +2,6 @@
  * Check files from 'src' for typos; fail if any are found.
  */
 
-/* jshint node:true */
 module.exports = function ( grunt ) {
 
 	grunt.registerMultiTask( 'tyops', function () {
